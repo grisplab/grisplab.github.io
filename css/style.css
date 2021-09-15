@@ -16,12 +16,13 @@ body > *:last-child {
 FF8286
 00CED1
 7B68EE
+6495ED (blue)
 */
 a {
-  color: #FF6347; 
+  color: black; 
 text-decoration: none;}
 a:hover {
-  color: #6495ED; }
+  color: #FF6347; }
 a.absent {
   color: #cc0000; }
 a.anchor {
