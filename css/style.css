@@ -18,10 +18,10 @@ FF8286
 7B68EE
 */
 a {
-  color: #6495ED; 
+  color: #FF6347; 
 text-decoration: none;}
 a:hover {
-  color: #FF6347; }
+  color: #6495ED; }
 a.absent {
   color: #cc0000; }
 a.anchor {
