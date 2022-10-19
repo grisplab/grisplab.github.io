@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -66,11 +66,11 @@ h6 tt, h6 code {
   font-size: inherit; }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
   color: black; }
 
 h2 {
-  font-size: 24px;
+  font-size: 35px;
   border-bottom: 1px solid #cccccc;
   color: black; }
 
