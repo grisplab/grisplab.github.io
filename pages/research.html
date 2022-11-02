@@ -2,10 +2,39 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="../css/style.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eaeced;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #57595a;
+}
+
+.active {
+  background-color: #57595a;
+}
+</style>
+  <link rel="stylesheet" href="css/style.css">
   <!-- <link rel="stylesheet" href="css/grid.css"> -->
   <meta charset="utf-8">
-  <title>GRISP Lab Research</title>
+  <title>GRISP Lab Home</title>
   <link rel = "icon" href = "../pics/favicon.ico" type = "image/x-icon">
 </head>
 
@@ -14,12 +43,12 @@
 <div align="right">
 <nav>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-<a target="blank" href="../index.html">Home</a>
-<br>
-<a target="blank" href="../pages/research.html" style="font-size: 18px"><strong>Research</strong></a>
-<br>
-<a target="blank" href="../pages/members.html">Members</a>
-<br>
+
+<ul>
+<li><a target="blank" href="index.html" style="font-size: 18px"><strong>Home</strong></a></li>
+<li><a target="blank" href="pages/research.html">Research</a></li>
+<li><a target="blank" href="pages/members.html">Members</a></li>
+</ul>
 </nav>
 
 </div>
