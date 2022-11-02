@@ -304,6 +304,8 @@ kbd {
   box-shadow: inset 0 -1px 0 #bbb
 }
 
+/*this part deals with the page layout, centering*/
+
 * {
 	-webkit-print-color-adjust: exact;
 }
