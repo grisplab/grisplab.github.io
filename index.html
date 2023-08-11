@@ -2,10 +2,65 @@
 <html>
 
 <head>
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
+      .image {
+        flex-basis: 30%
+      }
+      .text {
+        font-size: 18px;
+        padding-left: 0px;
+      }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eaeced;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #57595a;
+}
+
+.active {
+  background-color: #57595a;
+}
+</style>
   <link rel="stylesheet" href="css/style.css">
   <!-- <link rel="stylesheet" href="css/grid.css"> -->
   <meta charset="utf-8">
-  <title>GRISP Lab Home</title>
+  <title>Le GRISP Lab Home</title>
+  <link rel = "icon" href = "../pics/favicon.ico" type = "image/x-icon">
 </head>
 
 
@@ -13,50 +68,49 @@
 <div align="right">
 <nav>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-<a target="blank" href="index.html" style="font-size: 18px"><strong>Home</strong></a>
-<a target="blank" href="pages/research.html">Research</a>
-<a target="blank" href="pages/members.html">Members</a>
-<a target="blank" href="pages/XpragX.html">XPragX</a>
+<ul>
+<li><a target="_self" href="index.html" style="font-size: 18px"><strong>Home</strong></a></li>
+<li><a target="_self" href="pages/research.html">Research</a></li>
+<li><a target="_self" href="pages/members.html">Members</a></li>
+</ul>
 </nav>
 
 </div>
 
-<h1 id="toc_0">GRISP Lab</h1>
+<h1 id="toc_0">Le GRISP</h1>
 
-<div class="row">
-  <div align="left" class="col-md-6">
-    <img height="120px" src="../pics/GrispLogo.jpg">
-    </div>
-    
-
-<h2>About us</h2>
-
-      <div class="row">
-       <div align="left" class="col-md-6">
-
-          <img height="300px" src="../pics/GroupPic.JPG">
-
+      <div class="container">
+       <div class="row">
+        <div align="left" class="col-md-6">
+          <img height="600px" src="../pics/GroupPic.JPG">
         </div>
-
+        <br>
         <div align = "left" class="col-md-6">
-          
          We are the Groupe de Recherche sur l'Inference, la Semantique et la Pragmatique (GRISP), directed by Ira Noveck at the Laboratoire de Linguistique Formelle.
-
         </div>
       </div>
     </div>
           
-        
-
-<br>
-<br>
 <br>
 <h2>Contact us</h2>
-<b> email</b>: grisp.lab.llf(at)gmail.com, ira.noveck(at)gmail.com<br>
-<a target="blank" href="http://www.llf.cnrs.fr">Laboratoire de Linguistique Formelle</a> – UMR 7110 CNRS et <a target="blank" href="https://u-paris.fr/linguistique/en/home/">Université Paris Cité</a> <br> 
-Adresse géographique : Bât. Olympe de Gouges, 5ème étage. 8, Rue Albert Einstein 75013 Paris <br>
 
-</body>
+<div class="container">
+      <div class="image">
+          <img height="100px" src="../pics/GrispLogo.jpg">
+        </div>
+        <div class="text">
+      <b>Email</b>: ira.noveck(at)u-paris.fr<br>
+      <a target="blank" href="http://www.llf.cnrs.fr">Laboratoire de Linguistique Formelle</a> – UMR 7110 CNRS et <a target="blank" href="https://u-paris.fr/linguistique/en/home/">Université Paris Cité</a> <br> 
+      <b>Adresse géographique</b>: Bât. Olympe de Gouges, 5ème étage. 8, Rue Albert Einstein 75013 Paris       
+      </div>
+
+        </div>
+      </div>
+    </div>
+
+<div class="footer">
+  <p></p>
+</div>
 
 </html>
 
