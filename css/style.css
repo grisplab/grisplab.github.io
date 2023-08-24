@@ -7,6 +7,12 @@ body {
   background-color: white;
   padding-left: 10px; }
 
+body,html{ 
+  height: 100%; 
+  margin:0; 
+  padding:0; 
+  overflow:hidden; }
+
 body > *:first-child {
   margin-top: 0 !important; }
 body > *:last-child {
